@@ -1,0 +1,24 @@
+{
+  "name": "cdmap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "service/index.js",
+  "scripts": {
+    "start": "node service"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malpower/cdmap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malpower/cdmap/issues"
+  },
+  "homepage": "https://github.com/malpower/cdmap#readme",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-router": "^7.2.1",
+    "koa-static": "^4.0.1"
+  }
+}
