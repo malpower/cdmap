@@ -1,6 +1,6 @@
 FROM node:latest
 
-COPY cdmap /app/
+COPY . /app/
 
 WORKDIR "/app/"
 RUN "npm" "install"
