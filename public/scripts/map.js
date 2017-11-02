@@ -14,7 +14,7 @@ const touchables=`42 671 215 68 images/1.png 5.png 0 http://j.map.baidu.com/Xsgo
 1336 1340 154 109 images/14.png 1.png 1 http://j.map.baidu.com/BrgqN
 1071 1392 119 80 images/15.png 1.png 0 http://j.map.baidu.com/MAgqN
 890 1427 80 100 images/16.png 1.png 2 http://j.map.baidu.com/qvgqN
-970 1792 185 90 images/17.png 5.png 3 http://j.map.baidu.com/TNgqN
+970 1792 185 90 images/17.png 5.png 3 http://j.map.baidu.com/-BeqN
 842 621 154 89 images/18.png 4.png 2 http://j.map.baidu.com/8OgqN
 727 677 107 70 images/19.png 4.png 4 http://j.map.baidu.com/aohXB
 1027 703 148 79 images/20.png 2.png 0 http://j.map.baidu.com/vDBsn
