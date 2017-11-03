@@ -127,4 +127,5 @@ $(document).ready(()=>
         let ps=item.split(" ");
         (new Point(Number.parseInt(ps[0]),Number.parseInt(ps[1]),Number.parseInt(ps[2]),Number.parseInt(ps[3]),ps[4],ps[5],ps[6],ps[7])).attach();
     }
+    // $(".container").css("width",`${$(".map").width()}px`);
 });
