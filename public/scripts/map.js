@@ -57,6 +57,7 @@ const touchables=`42 671 215 68 images/1.png 5.png 0 http://j.map.baidu.com/Xsgo
 
 function showDialog(url=new Stirng,offset=new Number,baiduMap=new String)
 {
+    document.getElementsByTagName("meta")[1].content="initial-scale=0.2, width=device-width, maximum-scale=0.2";
     const dom=$("<div>").addClass("mask");
     const dlg=$("<div>").addClass("tc");
     const tt=$("<div>").addClass("tt");
@@ -80,6 +81,7 @@ function showDialog(url=new Stirng,offset=new Number,baiduMap=new String)
         {
             img.slideUp("slow",()=>
             {
+                document.getElementsByTagName("meta")[1].content="maximum-scale=8, initial-scale=0.2, width=device-width";
                 dom.remove();
             });
         }
