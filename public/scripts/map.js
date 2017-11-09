@@ -70,6 +70,7 @@ function showDialog(url=new Stirng,offset=new Number,baiduMap=new String)
     dom.fadeIn("fast",()=>
     {
         img.slideDown("slow");
+        document.getElementsByTagName("meta")[1].content="maximum-scale=8, initial-scale=0.2, width=device-width";
     });
     img.bind("click",(e)=>
     {
@@ -81,7 +82,6 @@ function showDialog(url=new Stirng,offset=new Number,baiduMap=new String)
         {
             img.slideUp("slow",()=>
             {
-                document.getElementsByTagName("meta")[1].content="maximum-scale=8, initial-scale=0.2, width=device-width";
                 dom.remove();
             });
         }
